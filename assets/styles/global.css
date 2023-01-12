@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d9d9d9;
+}
+
+.container {
+    width: 80%;
+    padding:20px;
+    margin: 10px auto;
+    background-color: aqua;
+    border-width: 5px;
+    border-color:#e8c80f;
+    border-style:solid;
+    border-radius: 9px;
+    
+}
+
+.profile-img {
+    width: 150px;
+    background-color: rgb(143, 148, 206);
+    display: block;
+    width: 150px;
+    border-radius: 200px;
+    margin:0 auto;
+    box-shadow:1px 10px 9px rgb(88, 72, 17);
+    border-width :3px;
+    border-color: rgb(255, 0, 225);
+    border-style: solid;
+
+
+}
+.header-title{
+    display: flex;
+}
+.personal-info{
+    width: 100%;
+    justify-content:left;
+}
+.header-menu{
+    display: flex;
+    gap: 50px;
+    justify-content:right;
+}
+
+.header-menu > a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(21, 19, 19);
+    font-size: 20px;
+}
