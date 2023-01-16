@@ -13,7 +13,9 @@ body {
 .container {
     width: 80%;
     padding:20px;
-    margin: 10px auto;
+    margin: 30px auto;
+    display: grid;
+    gap:50px;
     background-color: aqua;
     border-width: 5px;
     border-color:#e8c80f;
